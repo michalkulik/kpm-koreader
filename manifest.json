@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 1,
   "id": "mkulik-koreader",
   "name": "KOReader (mkulik)",
   "description": "KPM repository for the mkulik KOReader fork with ShelfSync and cover grid",
@@ -11,9 +11,15 @@
       "artifacts": [
         {
           "url": "https://github.com/michalkulik/koreader/releases/download/v2026.26/koreader-mkulik_2026.26.0_kindlepw2.kpkg",
-          "version": [2026, 26, 0],
+          "version": [
+            2026,
+            26,
+            0
+          ],
           "dependencies": [],
-          "supported_platforms": ["kindlepw2"]
+          "supported_platforms": [
+            "kindlepw2"
+          ]
         }
       ]
     }
