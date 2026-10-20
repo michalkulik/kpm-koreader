@@ -10,6 +10,19 @@ KOReadera dla Kindle.
 
 ## Instalacja
 
+Główny adres repozytorium (hostowany razem z serwerem półki):
+
+```text
+https://shelf.mkulik.eu/kpm/manifest.json
+```
+
+Alternatywnie (GitHub Pages):
+
+```text
+https://michalkulik.github.io/kpm-koreader/manifest.json
+```
+
+
 Najpierw usuń oficjalny pakiet KOReadera z KPM, jeśli jest zainstalowany:
 
 ```text
@@ -19,7 +32,7 @@ Najpierw usuń oficjalny pakiet KOReadera z KPM, jeśli jest zainstalowany:
 Dodaj to repozytorium:
 
 ```text
-;kpm add-repo https://michalkulik.github.io/kpm-koreader/manifest.json
+;kpm add-repo https://shelf.mkulik.eu/kpm/manifest.json
 ;kpm update
 ```
 
