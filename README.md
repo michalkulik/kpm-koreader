@@ -10,6 +10,24 @@ KOReadera dla Kindle.
 
 ## Instalacja
 
+**Uwaga:** `;kpm add-repo https://...` z paska wyszukiwania Kindla nie zadziała.
+Kindle `scriptExecutor` odrzuca argumenty zawierające `:` i `.`, więc polecenie
+nigdy nie trafia do KPM. Dotyczy to każdego URL-a, także oficjalnego.
+
+Użyj **kterm** albo skryptu (scriptletu) w `/mnt/us/documents/`:
+
+```sh
+/var/local/kmc/bin/kpm add-repo https://shelf.mkulik.eu/kpm/manifest.json
+/var/local/kmc/bin/kpm update
+```
+
+Po dodaniu repo zwykłe polecenia bez URL działają z paska wyszukiwania:
+
+```text
+;kpm install koreader-mkulik
+```
+
+
 Główny adres repozytorium (hostowany razem z serwerem półki):
 
 ```text
