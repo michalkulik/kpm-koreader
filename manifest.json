@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "id": "mkulik-koreader",
+  "name": "KOReader (mkulik)",
+  "description": "KPM repository for the mkulik KOReader fork with ShelfSync and cover grid",
+  "packages": {
+    "koreader-mkulik": {
+      "name": "KOReader (mkulik)",
+      "author": "michalkulik",
+      "description": "KOReader fork with ShelfSync, cover grid, progress bars and Android/Kindle integration",
+      "artifacts": [
+        {
+          "url": "https://github.com/michalkulik/koreader/releases/download/v2026.26/koreader-mkulik_2026.26.0_kindlepw2.kpkg",
+          "version": [2026, 26, 0],
+          "dependencies": [],
+          "supported_platforms": ["kindlepw2"]
+        }
+      ]
+    }
+  }
+}
