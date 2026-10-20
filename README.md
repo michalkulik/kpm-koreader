@@ -19,7 +19,7 @@ Najpierw usuń oficjalny pakiet KOReadera z KPM, jeśli jest zainstalowany:
 Dodaj to repozytorium:
 
 ```text
-;kpm add-repo https://raw.githubusercontent.com/michalkulik/kpm-koreader/main/manifest.json
+;kpm add-repo https://michalkulik.github.io/kpm-koreader/manifest.json
 ;kpm update
 ```
 
