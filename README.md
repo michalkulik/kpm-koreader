@@ -6,7 +6,7 @@ KOReadera dla Kindle.
 ## Wymagania
 
 - Kindle z KPM,
-- platforma `kindlepw2` (Kindle Paperwhite 2 i nowsze, w tym Kindle Basic 4 / 10. generacji).
+- platforma `kindlehf` (Kindle z firmware >= 5.16.3, w tym Kindle 10 / KT4) albo `kindlepw2` (starsze Kindle).
 
 ## Instalacja
 
@@ -89,6 +89,8 @@ aktualizacji.
 
 ## Paczka
 
-Wydanie: [`v2026.26`](https://github.com/michalkulik/koreader/releases/tag/v2026.26)
+Wydanie: [`v2026.38`](https://github.com/michalkulik/koreader/releases/tag/v2026.38)
 
-Plik: `koreader-mkulik_2026.26.0_kindlepw2.kpkg`
+Pliki:
+- `koreader-mkulik_2026.38.0_kindlehf.kpkg` — Kindle 10 / KT4 i inne z FW >= 5.16.3,
+- `koreader-mkulik_2026.38.0_kindlepw2.kpkg` — starsze Kindle.
