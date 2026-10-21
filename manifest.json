@@ -10,10 +10,10 @@
       "description": "KOReader fork with ShelfSync, cover grid, progress bars and Android/Kindle integration",
       "artifacts": [
         {
-          "url": "https://github.com/michalkulik/koreader/releases/download/v2026.58/koreader-mkulik_2026.58.0_kindlehf.kpkg",
+          "url": "https://github.com/michalkulik/koreader/releases/download/v2026.59/koreader-mkulik_2026.59.0_kindlehf.kpkg",
           "version": [
             2026,
-            58,
+            59,
             0
           ],
           "dependencies": [],
