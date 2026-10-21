@@ -89,8 +89,8 @@ aktualizacji.
 
 ## Paczka
 
-Wydanie: [`v2026.48`](https://github.com/michalkulik/koreader/releases/tag/v2026.48)
+Wydanie: [`v2026.49`](https://github.com/michalkulik/koreader/releases/tag/v2026.49)
 
 Pliki:
-- `koreader-mkulik_2026.48.0_kindlehf.kpkg` — Kindle 10 / KT4 i inne z FW >= 5.16.3,
+- `koreader-mkulik_2026.49.0_kindlehf.kpkg` — Kindle 10 / KT4 i inne z FW >= 5.16.3,
 - `koreader-mkulik_2026.41.0_kindlepw2.kpkg` — starsze Kindle (ostatnia paczka dla `kindlepw2`).
